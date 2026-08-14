@@ -22,7 +22,7 @@ int main(int argc, char **argv)
     /* Listen for connections */
     Listen(listenfd, LISTENQ);
 
-    printf("TCP server listening on port 9877...\n");
+    printf("TCP server listening on port 13...\n");
 
     while (1)
     {
