@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     bzero(&servaddr, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
     servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
-    servaddr.sin_port = htons(9877);
+    servaddr.sin_port = htons(13);
 
     /* Bind socket to port 9877 */
     Bind(listenfd, (SA *)&servaddr, sizeof(servaddr));
