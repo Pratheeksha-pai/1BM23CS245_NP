@@ -16,7 +16,7 @@ int main(int argc, char **argv)
     servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
     servaddr.sin_port = htons(13);
 
-    /* Bind socket to port 9877 */
+    /* Bind socket to port 13 */
     Bind(listenfd, (SA *)&servaddr, sizeof(servaddr));
 
     /* Listen for connections */
